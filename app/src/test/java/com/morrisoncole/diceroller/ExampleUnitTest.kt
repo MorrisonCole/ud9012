@@ -1,4 +1,4 @@
-package com.example.android.diceroller
+package com.morrisoncole.diceroller
 
 import org.junit.Test
 
