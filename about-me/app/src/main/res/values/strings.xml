@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Morrison Cole</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet velit ac lorem molestie condimentum.
+\n\n
+Proin at ex sed mi dapibus gravida. Mauris ac turpis purus. Morbi molestie ex non metus porta rhoncus. In posuere nisl in elit semper viverra. Praesent ac dui pulvinar, luctus eros aliquet, malesuada purus. Duis porttitor ipsum nunc, sed volutpat ante egestas et. Nam rhoncus eros ex. Curabitur viverra enim nec varius convallis. Donec ipsum nunc, tincidunt eu dolor consequat, fermentum pretium metus. Nullam ac velit non risus elementum eleifend.
+\n\n
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\n\n
+Suspendisse in diam sit amet nisl dapibus ornare sed ac ex. Donec enim lacus, tristique sit amet rhoncus et, elementum eget justo. Etiam maximus, eros non ullamcorper dignissim, erat nibh feugiat ex, laoreet commodo massa augue sed est. Mauris pharetra risus quis sapien venenatis dignissim. Integer pharetra congue purus, vel mollis nulla faucibus ut. Mauris id justo lacinia, tristique neque id, iaculis sapien. Quisque sed tortor sed velit dignissim sollicitudin ac a neque. Integer eget nulla id magna rhoncus ultrices. Donec ut velit fringilla, tristique lorem eget, faucibus neque. Proin mauris mauris, venenatis sit amet feugiat quis, fringilla ac leo. Aenean vitae semper felis.
+\n\n
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc suscipit posuere faucibus. Proin efficitur, ligula quis sodales consequat, sapien dui rhoncus neque, non sodales magna augue at lorem. Proin sodales dui felis. Nam et sollicitudin risus, id posuere felis. Phasellus a volutpat orci. Maecenas et orci quis lorem pulvinar placerat a vel velit. Cras vitae semper est. Etiam eget venenatis risus.
+    </string>
 </resources>
