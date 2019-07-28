@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="716be394-4f72-46df-a99f-f15a8aa53350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../about-me/app/src/main/java/com/morrisoncole/aboutme/MyName.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../about-me/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../about-me/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../about-me/app/src/main/java/com/morrisoncole/aboutme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/app/src/main/java/com/morrisoncole/aboutme/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../about-me/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../about-me/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../about-me/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../about-me/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
