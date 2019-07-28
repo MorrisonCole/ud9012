@@ -13,4 +13,6 @@ Suspendisse in diam sit amet nisl dapibus ornare sed ac ex. Donec enim lacus, tr
 \n\n
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc suscipit posuere faucibus. Proin efficitur, ligula quis sodales consequat, sapien dui rhoncus neque, non sodales magna augue at lorem. Proin sodales dui felis. Nam et sollicitudin risus, id posuere felis. Phasellus a volutpat orci. Maecenas et orci quis lorem pulvinar placerat a vel velit. Cras vitae semper est. Etiam eget venenatis risus.
     </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
 </resources>
