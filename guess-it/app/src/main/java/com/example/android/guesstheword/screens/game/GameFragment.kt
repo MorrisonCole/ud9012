@@ -34,7 +34,7 @@ import com.example.android.guesstheword.databinding.GameFragmentBinding
  */
 class GameFragment : Fragment() {
 
-    private lateinit var gameViewModel: GameViewModel
+    private lateinit var viewModel: GameViewModel
 
     private lateinit var binding: GameFragmentBinding
 
@@ -49,27 +49,22 @@ class GameFragment : Fragment() {
                 false
         )
 
-        gameViewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
+        viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
-        binding.correctButton.setOnClickListener {
-            gameViewModel.onCorrect()
-        }
-        binding.skipButton.setOnClickListener {
-            gameViewModel.onSkip()
-        }
+        binding.gameViewModel = viewModel
 
-        gameViewModel.score.observe(this, Observer {
+        viewModel.score.observe(this, Observer {
             binding.scoreText.text = it.toString()
         })
-        gameViewModel.word.observe(this, Observer {
+        viewModel.word.observe(this, Observer {
             binding.wordText.text = it
         })
-        gameViewModel.eventGameFinish.observe(this, Observer {
+        viewModel.eventGameFinish.observe(this, Observer {
             if (it) {
                 gameFinished()
             }
         })
-        gameViewModel.currentTime.observe(this, Observer {
+        viewModel.currentTime.observe(this, Observer {
             binding.timerText.text = DateUtils.formatElapsedTime(it)
         })
 
@@ -80,8 +75,8 @@ class GameFragment : Fragment() {
      * Called when the game is finished
      */
     private fun gameFinished() {
-        val action = GameFragmentDirections.actionGameToScore(gameViewModel.score.value ?: 0)
+        val action = GameFragmentDirections.actionGameToScore(viewModel.score.value ?: 0)
         findNavController(this).navigate(action)
-        gameViewModel.onGameFinishComplete()
+        viewModel.onGameFinishComplete()
     }
 }
