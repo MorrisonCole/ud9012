@@ -68,3 +68,4 @@ class SleepDatabaseTest {
         assertEquals(tonight?.sleepQuality, -1)
     }
 }
+
